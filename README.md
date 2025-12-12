@@ -30,12 +30,7 @@ This project uses the **Yelp Open Dataset** and applies:
 │
 ├── 2. Labeling/
 │ ├── Check_label.ipynb
-│ ├── Labeling.ipynb
-│ ├── high_similarity_pairs.csv
-│ ├── yelp_labeled_part_A.xlsx
-│ ├── yelp_labeled_part_B.xlsx
-│ ├── yelp_labeled_recombined.csv
-│ └── yelp_labeled_with_similarity.csv
+│ └── Labeling.ipynb
 │
 ├── 3. Modeling/
 │ ├── Finalization_data.ipynb
@@ -43,25 +38,18 @@ This project uses the **Yelp Open Dataset** and applies:
 │ ├── FakeReal_XGBoost.pkl
 │ ├── SublinearTF_FakeReal_.ipynb (SVM, RF, CatBoost, LightGBM, XGBoost)
 │ ├── SublinearTF_Sentiment_.ipynb (SVM, RF, CatBoost, LightGBM, XGBoost)
-│ ├── yelp_dataset_after_finalization.csv
-│ ├── yelp_labeled_with_similarity_and_fake.csv
 │ └── Pickle model/
 │ ├── Sentiment_Analysis_.pkl
 │ └── SublinearTF_FakeReal_.pkl
 │
 ├── 4. Merge dataset for getting text/
 │ ├── Merge.ipynb
-│ ├── yelp_dataset_after_finalization.csv
-│ ├── yelp_dataset_with_text.csv
-│ └── yelp_review_preprocessed.csv
 │
 └──  5. Dashboard/
  ├── check.ipynb
  ├── dashboard_review_analysis.py
- ├── Dummy_yelp_dataset_with_text.csv
  ├── FakeReal_XGBoost.pkl
- ├── Sentiment_Analysis_XGBoost.pkl
- └── yelp_dataset_with_text.csv
+ └── Sentiment_Analysis_XGBoost.pkl
 ```
 ---
 
