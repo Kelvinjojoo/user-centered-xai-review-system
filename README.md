@@ -22,6 +22,7 @@ This project uses the **Yelp Open Dataset** and applies:
 ---
 
 ## 📁 Repository Structure
+Note: The .pkl model files are not included in this repository because their sizes exceed GitHub’s storage limitations.
 ```
 📦 root/
 │
@@ -34,22 +35,15 @@ This project uses the **Yelp Open Dataset** and applies:
 │
 ├── 3. Modeling/
 │ ├── Finalization_data.ipynb
-│ ├── Sentiment_Analysis_XGBoost.pkl
-│ ├── FakeReal_XGBoost.pkl
 │ ├── SublinearTF_FakeReal_.ipynb (SVM, RF, CatBoost, LightGBM, XGBoost)
-│ ├── SublinearTF_Sentiment_.ipynb (SVM, RF, CatBoost, LightGBM, XGBoost)
-│ └── Pickle model/
-│ ├── Sentiment_Analysis_.pkl
-│ └── SublinearTF_FakeReal_.pkl
+│ └── SublinearTF_Sentiment_.ipynb (SVM, RF, CatBoost, LightGBM, XGBoost)
 │
 ├── 4. Merge dataset for getting text/
 │ ├── Merge.ipynb
 │
 └──  5. Dashboard/
  ├── check.ipynb
- ├── dashboard_review_analysis.py
- ├── FakeReal_XGBoost.pkl
- └── Sentiment_Analysis_XGBoost.pkl
+ └── dashboard_review_analysis.py
 ```
 ---
 
