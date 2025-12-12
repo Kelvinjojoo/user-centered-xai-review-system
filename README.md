@@ -28,9 +28,6 @@ This project uses the **Yelp Open Dataset** and applies:
 ├── 1. Pre-Processing/
 │ ├── business_selection_summary.csv
 │ ├── Pre_processing.ipynb
-│ ├── Pre_processing copy.ipynb
-│ ├── yelp_academic_dataset_business.json
-│ ├── yelp_academic_dataset_review.json
 │ ├── yelp_business_review_merged.csv
 │ └── yelp_review_preprocessed.csv
 │
