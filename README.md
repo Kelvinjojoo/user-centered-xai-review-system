@@ -22,6 +22,7 @@ This project uses the **Yelp Open Dataset** and applies:
 ---
 
 ## 📁 Repository Structure
+```
 📦 root/
 │
 ├── 1. Pre-Processing/
@@ -67,7 +68,7 @@ This project uses the **Yelp Open Dataset** and applies:
  ├── FakeReal_XGBoost.pkl
  ├── Sentiment_Analysis_XGBoost.pkl
  └── yelp_dataset_with_text.csv
-
+```
 ---
 
 ## 🧠 Machine Learning Models
